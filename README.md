@@ -88,6 +88,11 @@ eventcreate /L APPLICATION /T WARNING /ID 999 /SO WazuhPhishingLab /D "SIMULATED
 * `data.win.system.eventID`: `999`
 * `rule.mitre.technique`: `Phishing` (`T1566`)
 
+![Endpoint Telemetry Extraction](telemetry_details.png)
+*Figure 1: Windows 11 endpoint telemetry showing Event ID 999 and WazuhPhishingLab provider.*
+
+![MITRE Detection Rule 100002](mitre_rule_alert.png)
+*Figure 2: Custom Rule 100002 triggered at Level 10, mapped to MITRE ATT&CK T1566 (Phishing).*
 
 
 ---
